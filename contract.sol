@@ -23,7 +23,7 @@ contract InformacionContacto {
     edad = _edad;
   }
 
-  function getInformacion() public view returns (string memory, uint) 
+  function verInformacion() public view returns (string memory, uint) 
   {
     return (nombre, edad);
   }   
